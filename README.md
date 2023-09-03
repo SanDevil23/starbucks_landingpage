@@ -1,1 +1,1 @@
-<img align="right" width="400" src="page.png">
+<img src="page.png">
