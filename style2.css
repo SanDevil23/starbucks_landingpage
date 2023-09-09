@@ -268,6 +268,39 @@ section a{
     padding: 40px 0;
 }
 
+/* footers */
+
+.ftr-container{
+    display: flex;
+    justify-content: flex-start;
+    padding: 2%;
+    box-shadow: 1px 1px 7px rgb(0, 0, 0);
+    margin-bottom: 1%;
+}
+
+.ftr-list{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.ftr-container li{
+    margin: 0 15px;
+    line-height: 3em;
+    padding:3px;
+}
+
+.ftr-container a{
+    text-decoration: none;
+    color: #858585;
+    font-weight: 600;
+}
+
+.ftr-container a:hover{
+    color: black;
+    word-wrap:normal;
+}
+
 
 
 @media(max-width:960px){
